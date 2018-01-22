@@ -3,19 +3,29 @@ body{
     text-align: center;
     /*font-family: 'Arvo', serif;*/
     letter-spacing: 0.1em;
-    background-image: url('/public/curtains.JPEG');
+    /*background-image: url('/public/curtains.JPEG');*/
+    /*background-image: url('https://s7d1.scene7.com/is/image/PETCO/cat-category-090617-369w-269h-hero-cutout-d?fmt=png-alpha');*/
+    /*background-image: url('https://i.pinimg.com/736x/6f/05/9d/6f059d92dc49169281f8dd45385f2794--comic-movies-comic-books.jpg');*/
+    background-image: url('https://vignette.wikia.nocookie.net/superman/images/b/b1/Superman_Action_976_Gary_Frank.png/revision/latest/scale-to-width-down/288?cb=20170501140424');
+    /*background-repeat: no-repeat;*/
+    /*background-size: cover;*/
 }
 h1{
-    margin: 10px auto;
-    padding-bottom: 100px;
+    color: gold;
+    text-shadow: -3px 0 red, 0 3px red, 3px 0 red, 0 -3px red;
+    margin: 50px auto;
+    padding-bottom: 30px;
     word-spacing: .3em;
     font-size: 70px;
     font-family: 'Monoton', cursive;
-    font-weight: normal;
+    font-weight: bold;
     /*font-family: 'Raleway', sans-serif;*/
 }
 h2{
-    font-size: 30px;
+    color: gold;
+    text-shadow: -3px 0 red, 0 3px red, 3px 0 red, 0 -3px red;
+
+    font-size: 45px;
 }
 button{
     border-radius: 5px;
@@ -28,6 +38,9 @@ button:hover{
     border-radius: 5px;
 }
 input{
+    background-color: gold;
+    color: red;
+    border: red;
     padding: 7px;
     font-size: 20px;
     text-align: center;
